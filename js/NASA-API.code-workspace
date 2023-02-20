@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "NASA-API",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

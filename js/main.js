@@ -5,7 +5,7 @@ function getFetch(){
   const choice = document.querySelector('input').value.toLowerCase()
   console.log(choice)
 
-  const url = `https://api.nasa.gov/planetary/apod?api_key=E8ff6LmMHj8kS4UgcjE1R9LmIfTCjj04JpIXp09V&date=${choice}`
+  const url = `https://api.nasa.gov/planetary/apod?api_key=HAwmlJZ0PYe2DO3igOciUtp0APMFNa9Za4tn9VOv&date=${choice}`
 
   fetch(url)
       .then(res => res.json()) // parse response as JSON
